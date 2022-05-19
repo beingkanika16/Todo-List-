@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/beingkanika16/Todo-List-.git/static/css/main.a617e044.chunk.css",
-    "main.js": "/beingkanika16/Todo-List-.git/static/js/main.83b1fe3f.chunk.js",
-    "main.js.map": "/beingkanika16/Todo-List-.git/static/js/main.83b1fe3f.chunk.js.map",
-    "runtime-main.js": "/beingkanika16/Todo-List-.git/static/js/runtime-main.1ed46711.js",
-    "runtime-main.js.map": "/beingkanika16/Todo-List-.git/static/js/runtime-main.1ed46711.js.map",
-    "static/js/2.c7af7304.chunk.js": "/beingkanika16/Todo-List-.git/static/js/2.c7af7304.chunk.js",
-    "static/js/2.c7af7304.chunk.js.map": "/beingkanika16/Todo-List-.git/static/js/2.c7af7304.chunk.js.map",
-    "static/js/3.1ba852f6.chunk.js": "/beingkanika16/Todo-List-.git/static/js/3.1ba852f6.chunk.js",
-    "static/js/3.1ba852f6.chunk.js.map": "/beingkanika16/Todo-List-.git/static/js/3.1ba852f6.chunk.js.map",
-    "index.html": "/beingkanika16/Todo-List-.git/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/beingkanika16/Todo-List-.git/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.c7af7304.chunk.js.LICENSE.txt": "/beingkanika16/Todo-List-.git/static/js/2.c7af7304.chunk.js.LICENSE.txt"
+    "main.css": "/Todo-List-/static/css/main.a617e044.chunk.css",
+    "main.js": "/Todo-List-/static/js/main.83b1fe3f.chunk.js",
+    "main.js.map": "/Todo-List-/static/js/main.83b1fe3f.chunk.js.map",
+    "runtime-main.js": "/Todo-List-/static/js/runtime-main.904f8603.js",
+    "runtime-main.js.map": "/Todo-List-/static/js/runtime-main.904f8603.js.map",
+    "static/js/2.c7af7304.chunk.js": "/Todo-List-/static/js/2.c7af7304.chunk.js",
+    "static/js/2.c7af7304.chunk.js.map": "/Todo-List-/static/js/2.c7af7304.chunk.js.map",
+    "static/js/3.1ba852f6.chunk.js": "/Todo-List-/static/js/3.1ba852f6.chunk.js",
+    "static/js/3.1ba852f6.chunk.js.map": "/Todo-List-/static/js/3.1ba852f6.chunk.js.map",
+    "index.html": "/Todo-List-/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/Todo-List-/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.c7af7304.chunk.js.LICENSE.txt": "/Todo-List-/static/js/2.c7af7304.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ed46711.js",
+    "static/js/runtime-main.904f8603.js",
     "static/js/2.c7af7304.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.83b1fe3f.chunk.js"
