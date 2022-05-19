@@ -1,4 +1,3 @@
-/* eslint-disable no-lone-blocks */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-no-duplicate-props */
 import Paper from "@mui/material/Paper";
@@ -11,7 +10,8 @@ import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableRow from "@material-ui/core/TableRow";
-
+let values = [];
+let data = [];
 
 export default function App() {
   const [tableData, setTableData] = React.useState("");
@@ -19,7 +19,7 @@ export default function App() {
   const [editData, setEditData] = React.useState(false);
   const [rows, setRows] = React.useState('');
   let data = [];
-  let values = [];
+
   const onChange = (value) => {
     setTableData(value);
     { editData && setRows(value) }
@@ -28,18 +28,20 @@ export default function App() {
     data = window.localStorage.getItem('tableDataValue');
 	if(data && data.length)
 {    data = JSON.parse(data)
-    setAddedTableData(data);}
+    setAddedTableData(data);
+}
   }, [])
   const addData = () => {
-    values= addTableData.push(tableData);
+    values.push(tableData);
     window.localStorage.setItem("tableDataValue", JSON.stringify(values));
+	setAddedTableData(values)
     setTableData("");
     setEditData(false);
   };
   const deleteData = (row) => {
-    setAddedTableData(addTableData.filter((item) => item !== row));
-	window.localStorage.removeItem(row);
- };
+
+	setAddedTableData(addTableData.filter((item) => item !== row));
+	window.localStorage.removeItem(row);  };
   const edit = (row) => {
     setEditData(true);
     setTableData(row);
@@ -74,7 +76,6 @@ export default function App() {
           To Do List
         </Typography>
         <TextField
-          id="outlined-disabled"
           label="Enter Your Task"
           value={tableData}
           onKeyDown={(e) => handleEnter(e)}
@@ -150,7 +151,6 @@ export default function App() {
             <TableCell align="center" style={{ fontWeight: "bold" }}>
 
               <TextField
-                id="outlined-disabled"
                 label="Edit Task"
                 value={tableData}
                 id="todo"
